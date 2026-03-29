@@ -1,0 +1,626 @@
+{
+    "classico": {
+        "nome_menu": "Clássico",
+        "titulo": "Arte Clássica",
+        "descricao": "Na arte clássica, o foco era representar o ser humano de forma perfeita e equilibrada. Os artistas buscavam proporções ideais, harmonia e beleza, como se estivessem tentando criar um “modelo perfeito” do corpo humano. Isso aconteceu porque, na Grécia e em Roma, havia uma grande valorização da razão, da filosofia e do conhecimento. O ser humano era visto como o centro de tudo, então a arte refletia essa ideia de perfeição e equilíbrio.",
+        "obras": [
+            {
+                "titulo": "Discóbolo",
+                "imagem": "Assets/classico/img/discobolo.webp",
+                "autor": "Míron",
+                "ano": "450 a.C.",
+                "local": "Museu Nacional Romano",
+                "descricao": "Escultura de um atleta em movimento preparando-se para lançar um disco.",
+                "interpretacao": "Representa o ideal de corpo perfeito e equilíbrio físico da cultura grega."
+            },
+            {
+                "titulo": "Vênus de Milo",
+                "imagem": "Assets/classico/img/venus.jpg",
+                "autor": "Alexandre de Antioquia",
+                "ano": "130 a.C.",
+                "local": "Museu do Louvre",
+                "descricao": "Escultura de Afrodite, deusa do amor e da beleza.",
+                "interpretacao": "Simboliza a beleza ideal feminina e a harmonia das formas."
+            },
+            {
+                "titulo": "Laocoonte e seus filhos",
+                "imagem": "Assets/classico/img/laocoonte.jpg",
+                "autor": "Agesandro",
+                "ano": "Século I a.C.",
+                "local": "Museus Vaticanos",
+                "descricao": "Escultura dramática mostrando um pai e seus filhos sendo atacados por serpentes.",
+                "interpretacao": "Representa sofrimento humano com intensidade e realismo."
+            },
+            {
+                "titulo": "Doríforo",
+                "imagem": "Assets/classico/img/doriforo.jpg",
+                "autor": "Policleto",
+                "ano": "440 a.C.",
+                "local": "Museu Arqueológico de Nápoles",
+                "descricao": "Escultura de um guerreiro com proporções perfeitas.",
+                "interpretacao": "Mostra o ideal matemático de proporção corporal."
+            },
+            {
+                "titulo": "Epitaph of Seikilos",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Desconhecido",
+                "ano": "Século I",
+                "local": "Museu da Dinamarca",
+                "descricao": "A música completa mais antiga já registrada.",
+                "interpretacao": "Mostra como a arte musical também fazia parte da cultura clássica."
+            }
+        ]
+    },
+    "renascimento": {
+        "nome_menu": "Renascimento",
+        "titulo": "Período Renascentista",
+        "descricao": "O Renascimento marcou o retorno aos valores da antiguidade clássica, com foco no ser humano, na ciência e na natureza. Os artistas passaram a usar técnicas como a perspectiva, criando obras mais realistas. Esse movimento surgiu com o crescimento das cidades e novas ideias científicas.",
+        "obras": [
+            {
+                "titulo": "Mona Lisa",
+                "imagem": "Assets/renascimento/img/monalisa.webp",
+                "autor": "Leonardo da Vinci",
+                "ano": "1503",
+                "local": "Museu do Louvre",
+                "descricao": "Retrato de uma mulher com expressão enigmática.",
+                "interpretacao": "Representa o equilíbrio entre emoção e técnica."
+            },
+            {
+                "titulo": "A Última Ceia",
+                "imagem": "Assets/renascimento/img/ceia.webp",
+                "autor": "Leonardo da Vinci",
+                "ano": "1498",
+                "local": "Milão",
+                "descricao": "Cena de Jesus com seus discípulos.",
+                "interpretacao": "Mostra emoção e organização perfeita da cena."
+            },
+            {
+                "titulo": "A Criação de Adão",
+                "imagem": "Assets/renascimento/img/adao.webp",
+                "autor": "Michelangelo",
+                "ano": "1512",
+                "local": "Capela Sistina",
+                "descricao": "Representa Deus criando o homem.",
+                "interpretacao": "Simboliza a ligação entre divino e humano."
+            },
+            {
+                "titulo": "O Nascimento de Vênus",
+                "imagem": "Assets/renascimento/img/venus.webp",
+                "autor": "Botticelli",
+                "ano": "1486",
+                "local": "Galeria Uffizi",
+                "descricao": "Deusa Vênus surgindo do mar.",
+                "interpretacao": "Valoriza a beleza e a mitologia."
+            },
+            {
+                "titulo": "Ave Maria",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Palestrina",
+                "ano": "Século XVI",
+                "local": "Europa",
+                "descricao": "Música coral religiosa.",
+                "interpretacao": "Reflete a espiritualidade equilibrada do período."
+            }
+        ]
+    },
+    "barroco": {
+        "nome_menu": "Barroco",
+        "titulo": "Período Barroco",
+        "descricao": "O Barroco é uma arte cheia de emoção, drama e intensidade. As obras costumam ter muito contraste entre luz e sombra e passam uma sensação forte, quase teatral. Isso aconteceu principalmente por causa da Igreja Católica, que queria reconquistar fiéis durante um período de conflitos religiosos. Então, a arte era usada como uma forma de impactar as pessoas e provocar emoção.",
+        "obras": [
+            {
+                "titulo": "A Vocação de São Mateus",
+                "imagem": "Assets/barroco/img/mateus.webp",
+                "autor": "Caravaggio",
+                "ano": "1600",
+                "local": "Igreja de São Luís dos Franceses",
+                "descricao": "Cena bíblica com forte contraste de luz.",
+                "interpretacao": "Mostra o chamado divino de forma dramática."
+            },
+            {
+                "titulo": "As Meninas",
+                "imagem": "Assets/barroco/img/meninas.webp",
+                "autor": "Velázquez",
+                "ano": "1656",
+                "local": "Museu do Prado",
+                "descricao": "Cena da corte espanhola.",
+                "interpretacao": "Explora perspectiva e realidade."
+            },
+            {
+                "titulo": "A Ronda Noturna",
+                "imagem": "Assets/barroco/img/ronda.webp",
+                "autor": "Rembrandt",
+                "ano": "1642",
+                "local": "Rijksmuseum",
+                "descricao": "Grupo de guardas em ação.",
+                "interpretacao": "Dinamismo e uso dramático da luz."
+            },
+            {
+                "titulo": "Êxtase de Santa Teresa",
+                "imagem": "Assets/barroco/img/teresa.webp",
+                "autor": "Bernini",
+                "ano": "1652",
+                "local": "Roma",
+                "descricao": "Escultura religiosa intensa.",
+                "interpretacao": "Mistura espiritualidade e emoção."
+            },
+            {
+                "titulo": "Primavera (As Quatro Estações)",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Vivaldi",
+                "ano": "1723",
+                "local": "Itália",
+                "descricao": "Música instrumental vibrante.",
+                "interpretacao": "Representa a natureza com energia."
+            }
+        ]
+    },
+    "romantismo": {
+        "nome_menu": "Romantismo",
+        "titulo": "Período Romântico",
+        "descricao": "O Romantismo valoriza a emoção, a liberdade e a expressão individual. As obras mostram sentimentos intensos, como amor, medo e solidão, além de destacar a força da natureza. Esse movimento surgiu em meio a revoluções e mudanças sociais, como uma reação contra o excesso de razão.",
+        "obras": [
+            {
+                "titulo": "A Liberdade Guiando o Povo",
+                "imagem": "Assets/romantismo/img/liberdade.webp",
+                "autor": "Delacroix",
+                "ano": "1830",
+                "local": "Museu do Louvre",
+                "descricao": "Cena de revolução com uma figura feminina liderando o povo.",
+                "interpretacao": "Representa a luta por liberdade e mudança social."
+            },
+            {
+                "titulo": "O Peregrino sobre o Mar de Névoa",
+                "imagem": "Assets/romantismo/img/nevoa.webp",
+                "autor": "Caspar David Friedrich",
+                "ano": "1818",
+                "local": "Hamburgo Kunsthalle",
+                "descricao": "Homem observando uma paisagem coberta por névoa.",
+                "interpretacao": "Simboliza reflexão e grandiosidade da natureza."
+            },
+            {
+                "titulo": "A Balsa da Medusa",
+                "imagem": "Assets/romantismo/img/medusa.webp",
+                "autor": "Géricault",
+                "ano": "1819",
+                "local": "Museu do Louvre",
+                "descricao": "Sobreviventes de um naufrágio em desespero.",
+                "interpretacao": "Mostra sofrimento humano e esperança."
+            },
+            {
+                "titulo": "3 de Maio de 1808",
+                "imagem": "Assets/romantismo/img/goya.webp",
+                "autor": "Goya",
+                "ano": "1814",
+                "local": "Museu do Prado",
+                "descricao": "Execução de civis durante guerra.",
+                "interpretacao": "Denúncia da violência e injustiça."
+            },
+            {
+                "titulo": "Nocturne Op. 9 No. 2",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Chopin",
+                "ano": "1832",
+                "local": "Europa",
+                "descricao": "Peça musical suave e emocional.",
+                "interpretacao": "Expressa sentimentos profundos e delicados."
+            }
+        ]
+    },
+    "impressionismo": {
+        "nome_menu": "Impressionismo",
+        "titulo": "Impressionismo",
+        "descricao": "O Impressionismo busca capturar momentos e sensações, principalmente a luz e o movimento. As pinturas são feitas com pinceladas rápidas e cores vivas. Surgiu com a modernização das cidades e a invenção da fotografia.",
+        "obras": [
+            {
+                "titulo": "Impressão, Nascer do Sol",
+                "imagem": "Assets/impressionismo/img/sol.webp",
+                "autor": "Monet",
+                "ano": "1872",
+                "local": "Museu Marmottan",
+                "descricao": "Cena de um porto ao amanhecer.",
+                "interpretacao": "Foca na luz e na atmosfera do momento."
+            },
+            {
+                "titulo": "Nenúfares",
+                "imagem": "Assets/impressionismo/img/nenu.webp",
+                "autor": "Monet",
+                "ano": "1916",
+                "local": "Museu de Orsay",
+                "descricao": "Lago com flores aquáticas.",
+                "interpretacao": "Explora reflexos e cores naturais."
+            },
+            {
+                "titulo": "Baile no Moulin de la Galette",
+                "imagem": "Assets/impressionismo/img/baile.webp",
+                "autor": "Renoir",
+                "ano": "1876",
+                "local": "Museu de Orsay",
+                "descricao": "Cena de dança ao ar livre.",
+                "interpretacao": "Representa a vida cotidiana com leveza."
+            },
+            {
+                "titulo": "Aula de Dança",
+                "imagem": "Assets/impressionismo/img/danca.webp",
+                "autor": "Degas",
+                "ano": "1874",
+                "local": "Museu de Orsay",
+                "descricao": "Bailarinas em ensaio.",
+                "interpretacao": "Mostra movimento e rotina artística."
+            },
+            {
+                "titulo": "Clair de Lune",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Debussy",
+                "ano": "1905",
+                "local": "França",
+                "descricao": "Peça musical suave e atmosférica.",
+                "interpretacao": "Evoca sensações e sentimentos sutis."
+            }
+        ]
+    },
+    "expressionismo": {
+        "nome_menu": "Expressionismo",
+        "titulo": "Expressionismo",
+        "descricao": "O Expressionismo distorce a realidade para expressar emoções intensas. As cores são fortes e as formas exageradas. Surgiu em um período de crise e tensão social, especialmente próximo às guerras.",
+        "obras": [
+            {
+                "titulo": "O Grito",
+                "imagem": "Assets/expressionismo/img/grito.webp",
+                "autor": "Edvard Munch",
+                "ano": "1893",
+                "local": "Galeria Nacional de Oslo",
+                "descricao": "Figura em desespero em uma paisagem distorcida.",
+                "interpretacao": "Representa ansiedade e angústia."
+            },
+            {
+                "titulo": "Noite Estrelada",
+                "imagem": "Assets/expressionismo/img/noite.webp",
+                "autor": "Van Gogh",
+                "ano": "1889",
+                "local": "MoMA",
+                "descricao": "Céu noturno com formas em movimento.",
+                "interpretacao": "Expressa emoção através das cores."
+            },
+            {
+                "titulo": "Campo de Trigo com Corvos",
+                "imagem": "Assets/expressionismo/img/trigo.webp",
+                "autor": "Van Gogh",
+                "ano": "1890",
+                "local": "Museu Van Gogh",
+                "descricao": "Paisagem com céu dramático.",
+                "interpretacao": "Sensação de inquietação."
+            },
+            {
+                "titulo": "Autorretrato",
+                "imagem": "Assets/expressionismo/img/schiele.webp",
+                "autor": "Egon Schiele",
+                "ano": "1910",
+                "local": "Museu Leopold",
+                "descricao": "Retrato distorcido do artista.",
+                "interpretacao": "Expressa identidade e conflito interno."
+            },
+            {
+                "titulo": "Verklärte Nacht",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Schoenberg",
+                "ano": "1899",
+                "local": "Áustria",
+                "descricao": "Composição intensa e emocional.",
+                "interpretacao": "Explora sentimentos profundos e complexos."
+            }
+        ]
+    },
+    "cubismo": {
+        "nome_menu": "Cubismo",
+        "titulo": "Cubismo",
+        "descricao": "O Cubismo apresenta objetos de vários ângulos ao mesmo tempo, usando formas geométricas. Ele rompe com a perspectiva tradicional e propõe uma nova forma de ver a realidade.",
+        "obras": [
+            {
+                "titulo": "Les Demoiselles d’Avignon",
+                "imagem": "Assets/cubismo/img/demoiselles.webp",
+                "autor": "Picasso",
+                "ano": "1907",
+                "local": "MoMA",
+                "descricao": "Figuras femininas com formas geométricas.",
+                "interpretacao": "Quebra padrões tradicionais da arte."
+            },
+            {
+                "titulo": "Guernica",
+                "imagem": "Assets/cubismo/img/guernica.webp",
+                "autor": "Picasso",
+                "ano": "1937",
+                "local": "Museu Reina Sofía",
+                "descricao": "Cena de guerra em preto e branco.",
+                "interpretacao": "Denúncia da violência."
+            },
+            {
+                "titulo": "Homem com Violão",
+                "imagem": "Assets/cubismo/img/violao.webp",
+                "autor": "Braque",
+                "ano": "1911",
+                "local": "Museu de Arte Moderna",
+                "descricao": "Figura fragmentada com instrumento.",
+                "interpretacao": "Explora múltiplas perspectivas."
+            },
+            {
+                "titulo": "Três Músicos",
+                "imagem": "Assets/cubismo/img/musicos.webp",
+                "autor": "Picasso",
+                "ano": "1921",
+                "local": "MoMA",
+                "descricao": "Personagens em formas geométricas.",
+                "interpretacao": "Uso de cores e formas simplificadas."
+            },
+            {
+                "titulo": "Parade",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Erik Satie",
+                "ano": "1917",
+                "local": "França",
+                "descricao": "Trilha experimental de balé.",
+                "interpretacao": "Quebra padrões musicais tradicionais."
+            }
+        ]
+    },
+    "fauvismo": {
+        "nome_menu": "Fauvismo",
+        "titulo": "Fauvismo",
+        "descricao": "O Fauvismo é marcado pelo uso de cores intensas e irreais, com formas simples e foco na expressão. Os artistas buscavam liberdade criativa, sem se preocupar em representar a realidade de forma fiel.",
+        "obras": [
+            {
+                "titulo": "A Dança",
+                "imagem": "Assets/fauvismo/img/danca.webp",
+                "autor": "Henri Matisse",
+                "ano": "1910",
+                "local": "Museu Hermitage",
+                "descricao": "Figuras dançando em círculo com cores vibrantes.",
+                "interpretacao": "Expressa energia, movimento e liberdade."
+            },
+            {
+                "titulo": "A Alegria de Viver",
+                "imagem": "Assets/fauvismo/img/alegria.webp",
+                "autor": "Matisse",
+                "ano": "1906",
+                "local": "Fundação Barnes",
+                "descricao": "Cena com figuras em um ambiente colorido.",
+                "interpretacao": "Representa felicidade e harmonia."
+            },
+            {
+                "titulo": "Mulher com Chapéu",
+                "imagem": "Assets/fauvismo/img/chapeu.webp",
+                "autor": "Matisse",
+                "ano": "1905",
+                "local": "Museu de Arte Moderna de San Francisco",
+                "descricao": "Retrato com cores fortes e não realistas.",
+                "interpretacao": "Mostra liberdade no uso das cores."
+            },
+            {
+                "titulo": "Ponte de Charing Cross",
+                "imagem": "Assets/fauvismo/img/ponte.webp",
+                "autor": "André Derain",
+                "ano": "1906",
+                "local": "Museu de Belas Artes",
+                "descricao": "Paisagem urbana com cores intensas.",
+                "interpretacao": "Reinterpreta a realidade com emoção."
+            },
+            {
+                "titulo": "Boléro",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Maurice Ravel",
+                "ano": "1928",
+                "local": "França",
+                "descricao": "Composição musical repetitiva e crescente.",
+                "interpretacao": "Explora intensidade e construção sonora."
+            }
+        ]
+    },
+    "dadaismo": {
+        "nome_menu": "Dadaísmo",
+        "titulo": "Dadaísmo",
+        "descricao": "O Dadaísmo rejeita a lógica e os padrões tradicionais da arte. É um movimento provocador, muitas vezes sem sentido, criado como forma de protesto contra a sociedade após a Primeira Guerra Mundial.",
+        "obras": [
+            {
+                "titulo": "Fonte",
+                "imagem": "Assets/dadaismo/img/fonte.webp",
+                "autor": "Marcel Duchamp",
+                "ano": "1917",
+                "local": "Museu de Arte Moderna",
+                "descricao": "Um urinol apresentado como obra de arte.",
+                "interpretacao": "Questiona o conceito de arte."
+            },
+            {
+                "titulo": "L.H.O.O.Q.",
+                "imagem": "Assets/dadaismo/img/lhooq.webp",
+                "autor": "Duchamp",
+                "ano": "1919",
+                "local": "Coleção privada",
+                "descricao": "Mona Lisa com intervenções irônicas.",
+                "interpretacao": "Crítica à arte tradicional."
+            },
+            {
+                "titulo": "Cabeça Mecânica",
+                "imagem": "Assets/dadaismo/img/cabeca.webp",
+                "autor": "Raoul Hausmann",
+                "ano": "1920",
+                "local": "Museu de Arte Moderna",
+                "descricao": "Escultura com objetos do cotidiano.",
+                "interpretacao": "Representa o caos e a crítica social."
+            },
+            {
+                "titulo": "Corte com a Faca de Cozinha",
+                "imagem": "Assets/dadaismo/img/faca.webp",
+                "autor": "Hannah Höch",
+                "ano": "1919",
+                "local": "Museu de Berlim",
+                "descricao": "Colagem com imagens fragmentadas.",
+                "interpretacao": "Critica política e sociedade."
+            },
+            {
+                "titulo": "Karawane",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Hugo Ball",
+                "ano": "1916",
+                "local": "Zurique",
+                "descricao": "Poema sonoro sem sentido lógico.",
+                "interpretacao": "Rejeita linguagem tradicional."
+            }
+        ]
+    },
+    "surrealismo": {
+        "nome_menu": "Surrealismo",
+        "titulo": "Surrealismo",
+        "descricao": "O Surrealismo explora o inconsciente, os sonhos e a imaginação. Mistura elementos reais com situações impossíveis, criando imagens estranhas e simbólicas.",
+        "obras": [
+            {
+                "titulo": "A Persistência da Memória",
+                "imagem": "Assets/surrealismo/img/memoria.webp",
+                "autor": "Salvador Dalí",
+                "ano": "1931",
+                "local": "MoMA",
+                "descricao": "Relógios derretendo em uma paisagem.",
+                "interpretacao": "Representa a relatividade do tempo."
+            },
+            {
+                "titulo": "O Filho do Homem",
+                "imagem": "Assets/surrealismo/img/filho.webp",
+                "autor": "Magritte",
+                "ano": "1964",
+                "local": "Coleção privada",
+                "descricao": "Homem com rosto coberto por maçã.",
+                "interpretacao": "Mistério e identidade."
+            },
+            {
+                "titulo": "Os Amantes",
+                "imagem": "Assets/surrealismo/img/amantes.webp",
+                "autor": "Magritte",
+                "ano": "1928",
+                "local": "MoMA",
+                "descricao": "Casal com rostos cobertos.",
+                "interpretacao": "Barreiras no relacionamento."
+            },
+            {
+                "titulo": "Carnaval de Arlequim",
+                "imagem": "Assets/surrealismo/img/carnaval.webp",
+                "autor": "Miró",
+                "ano": "1925",
+                "local": "Galeria Albright-Knox",
+                "descricao": "Cena abstrata e fantasiosa.",
+                "interpretacao": "Representa o mundo dos sonhos."
+            },
+            {
+                "titulo": "Gnossienne No.1",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Erik Satie",
+                "ano": "1890",
+                "local": "França",
+                "descricao": "Peça musical misteriosa.",
+                "interpretacao": "Cria atmosfera onírica."
+            }
+        ]
+    },
+    "pop-art": {
+        "nome_menu": "Pop Art",
+        "titulo": "Pop Art",
+        "descricao": "A Pop Art usa elementos da cultura popular, como celebridades e produtos, transformando o cotidiano em arte. Reflete o crescimento da mídia e do consumo.",
+        "obras": [
+            {
+                "titulo": "Marilyn Diptych",
+                "imagem": "Assets/popart/img/marilyn.webp",
+                "autor": "Andy Warhol",
+                "ano": "1962",
+                "local": "Tate Modern",
+                "descricao": "Imagem repetida de Marilyn Monroe.",
+                "interpretacao": "Crítica à fama e consumo."
+            },
+            {
+                "titulo": "Campbell’s Soup Cans",
+                "imagem": "Assets/popart/img/soup.webp",
+                "autor": "Warhol",
+                "ano": "1962",
+                "local": "MoMA",
+                "descricao": "Latas de sopa repetidas.",
+                "interpretacao": "Mostra produção em massa."
+            },
+            {
+                "titulo": "Whaam!",
+                "imagem": "Assets/popart/img/whaam.webp",
+                "autor": "Lichtenstein",
+                "ano": "1963",
+                "local": "Tate Modern",
+                "descricao": "Cena de quadrinho ampliada.",
+                "interpretacao": "Estética da mídia."
+            },
+            {
+                "titulo": "Drowning Girl",
+                "imagem": "Assets/popart/img/drowning.webp",
+                "autor": "Lichtenstein",
+                "ano": "1963",
+                "local": "MoMA",
+                "descricao": "Cena dramática estilo HQ.",
+                "interpretacao": "Emoção simplificada."
+            },
+            {
+                "titulo": "She Loves You",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "The Beatles",
+                "ano": "1963",
+                "local": "Reino Unido",
+                "descricao": "Música pop icônica.",
+                "interpretacao": "Representa cultura de massa."
+            }
+        ]
+    },
+    "op-art": {
+        "nome_menu": "Op Art",
+        "titulo": "Op Art",
+        "descricao": "A Op Art utiliza padrões geométricos e contrastes para criar ilusões de ótica. As obras parecem se mover ou vibrar, explorando a forma como o olho humano percebe imagens.",
+        "obras": [
+            {
+                "titulo": "Movement in Squares",
+                "imagem": "Assets/opart/img/squares.webp",
+                "autor": "Bridget Riley",
+                "ano": "1961",
+                "local": "Tate",
+                "descricao": "Padrões geométricos que criam movimento.",
+                "interpretacao": "Ilusão de profundidade."
+            },
+            {
+                "titulo": "Blaze",
+                "imagem": "Assets/opart/img/blaze.webp",
+                "autor": "Riley",
+                "ano": "1964",
+                "local": "Coleção privada",
+                "descricao": "Linhas em espiral.",
+                "interpretacao": "Sensação de rotação."
+            },
+            {
+                "titulo": "Vega-Nor",
+                "imagem": "Assets/opart/img/vega.webp",
+                "autor": "Victor Vasarely",
+                "ano": "1969",
+                "local": "Museu Vasarely",
+                "descricao": "Formas geométricas distorcidas.",
+                "interpretacao": "Cria volume ilusório."
+            },
+            {
+                "titulo": "Zebra",
+                "imagem": "Assets/opart/img/zebra.webp",
+                "autor": "Vasarely",
+                "ano": "1937",
+                "local": "Coleção privada",
+                "descricao": "Linhas que formam zebras.",
+                "interpretacao": "Movimento visual."
+            },
+            {
+                "titulo": "Music for 18 Musicians",
+                "embed": "https://www.youtube.com/embed/CvFH_6DNRCY",
+                "autor": "Steve Reich",
+                "ano": "1976",
+                "local": "EUA",
+                "descricao": "Música baseada em repetição.",
+                "interpretacao": "Cria padrões sonoros semelhantes à Op Art."
+            }
+        ]
+    }
+}
