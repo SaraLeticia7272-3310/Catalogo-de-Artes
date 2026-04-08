@@ -1,3 +1,137 @@
+// const ordemPeriodos = [
+//     "classico",
+//     "renascimento",
+//     "barroco",
+//     "romantismo",
+//     "impressionismo",
+//     "expressionismo",
+//     "cubismo",
+//     "fauvismo",
+//     "dadaismo",
+//     "surrealismo",
+//     "pop-art",
+//     "op-art"
+// ];
+
+// document.addEventListener("DOMContentLoaded", async () => {
+
+//     document.body.classList.add("loaded");
+//     // HEAD
+//     const headInclude = document.querySelector("[data-include-head]");
+//     if (headInclude) {
+//         const response = await fetch(headInclude.getAttribute("data-include-head"));
+//         const content = await response.text();
+//         document.head.insertAdjacentHTML("beforeend", content);
+//     }
+
+//     // BODY (header, etc)
+//     const includes = document.querySelectorAll("[data-include]");
+//     for (const el of includes) {
+//         const response = await fetch(el.getAttribute("data-include"));
+//         const content = await response.text();
+//         el.innerHTML = content;
+//     }
+
+//     // 🔥 AGORA SIM tudo existe no HTML
+
+//     carregarPeriodo();
+//     setTimeout(() => {
+//         window.scrollTo(0, 0);
+//     }, 500);
+// });
+
+// function controlarNavegacao(idAtual, data) {
+
+//     const index = ordemPeriodos.indexOf(idAtual);
+
+//     const btnAnterior = document.getElementById("btn-anterior");
+//     const btnProximo = document.getElementById("btn-proximo");
+
+//     // limpa tudo primeiro
+//     btnAnterior.classList.add("d-none");
+//     btnProximo.classList.add("d-none");
+
+//     // 🔙 anterior
+//     if (index > 0) {
+//         const idAnterior = ordemPeriodos[index - 1];
+
+//         btnAnterior.classList.remove("d-none");
+//         btnAnterior.href = `periodo.html?id=${idAnterior}`;
+//         btnAnterior.innerText = `← ${data[idAnterior].nome_menu}`;
+//     }
+
+//     // 🔜 próximo
+//     if (index < ordemPeriodos.length - 1) {
+//         const idProximo = ordemPeriodos[index + 1];
+
+//         btnProximo.classList.remove("d-none");
+//         btnProximo.href = `periodo.html?id=${idProximo}`;
+//         btnProximo.innerText = `${data[idProximo].nome_menu} →`;
+//     }
+// }
+
+// async function carregarPeriodo() {
+
+//     const params = new URLSearchParams(window.location.search);
+//     const id = params.get("id");
+
+//     const response = await fetch("data/periodos.json");
+//     const data = await response.json();
+
+//     const periodo = data[id];
+
+//     if (!periodo) return; // evita erro
+
+//     document.title = periodo.nome_menu;
+
+//     document.querySelector(".navbar h1").innerText = periodo.nome_menu;
+
+//     document.getElementById("titulo").innerText = periodo.titulo;
+//     document.getElementById("descricao").innerText = periodo.descricao;
+
+//     const container = document.getElementById("container-obras");
+
+//     container.innerHTML = ""; // limpa antes
+
+//     periodo.obras.forEach(obra => {
+//         const midia = obra.embed
+//             ? `<iframe src="${obra.embed}" 
+//                 frameborder="0" 
+//                 allowfullscreen></iframe>`
+//             : `<img src="${obra.imagem}" alt="${obra.titulo}">`;
+//         container.innerHTML += `
+//         <div class="col-12 col-md-6 col-lg-4">
+
+//             <div class="exposição">
+
+//                 <div title="${obra.titulo}" class="card_obras">
+//                     <h3>${obra.titulo}</h3>
+//                     <div class="obra">
+//                         ${midia}
+//                     </div>
+//                 </div>
+
+//                 <div class="legenda">
+//                     <p><b>Ano:</b> ${obra.ano}</p>
+//                     <p><b>Autor:</b> ${obra.autor}</p>
+//                     <p><b>Local atual:</b> ${obra.local}</p>
+//                     <p><b>Descrição:</b> ${obra.descricao}</p>
+//                 </div>
+
+//             </div>
+
+//         </div>
+//         `;
+//     });
+
+//     controlarNavegacao(id, data);
+// }
+
+// function initPage() {
+//     carregarPeriodo();
+// }
+
+// ORDEM DOS PERÍODOS
 const ordemPeriodos = [
     "classico",
     "renascimento",
@@ -13,7 +147,36 @@ const ordemPeriodos = [
     "op-art"
 ];
 
+// ===============================
+// 🔹 INICIALIZAÇÃO
+// ===============================
 document.addEventListener("DOMContentLoaded", async () => {
+
+    await carregarIncludes();
+
+    initPage();
+
+    // INICIA SWUP
+    const swup = new Swup();
+
+    swup.hooks.on('page:view', async () => {
+        await carregarIncludes();
+        initPage();
+    });
+
+});
+
+// ===============================
+// 🔹 FUNÇÃO PRINCIPAL
+// ===============================
+function initPage() {
+    carregarPeriodo();
+}
+
+// ===============================
+// 🔹 INCLUDE (HEAD + HEADER + FOOTER)
+// ===============================
+async function carregarIncludes() {
 
     // HEAD
     const headInclude = document.querySelector("[data-include-head]");
@@ -23,34 +186,18 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.head.insertAdjacentHTML("beforeend", content);
     }
 
-    // BODY (header, etc)
+    // BODY
     const includes = document.querySelectorAll("[data-include]");
     for (const el of includes) {
         const response = await fetch(el.getAttribute("data-include"));
         const content = await response.text();
         el.innerHTML = content;
     }
-
-    // 🔥 AGORA SIM tudo existe no HTML
-
-    destacarMenu();
-    carregarPeriodo();
-
-});
-
-function destacarMenu() {
-    const params = new URLSearchParams(window.location.search);
-    const atual = params.get("id");
-
-    const links = document.querySelectorAll(".nav-link");
-
-    links.forEach(link => {
-        if (link.dataset.id === atual) {
-            link.classList.add("ativo");
-        }
-    });
 }
 
+// ===============================
+// 🔹 NAVEGAÇÃO ENTRE PERÍODOS
+// ===============================
 function controlarNavegacao(idAtual, data) {
 
     const index = ordemPeriodos.indexOf(idAtual);
@@ -58,11 +205,12 @@ function controlarNavegacao(idAtual, data) {
     const btnAnterior = document.getElementById("btn-anterior");
     const btnProximo = document.getElementById("btn-proximo");
 
-    // limpa tudo primeiro
+    if (!btnAnterior || !btnProximo) return;
+
     btnAnterior.classList.add("d-none");
     btnProximo.classList.add("d-none");
 
-    // 🔙 anterior
+    // ANTERIOR
     if (index > 0) {
         const idAnterior = ordemPeriodos[index - 1];
 
@@ -71,7 +219,7 @@ function controlarNavegacao(idAtual, data) {
         btnAnterior.innerText = `← ${data[idAnterior].nome_menu}`;
     }
 
-    // 🔜 próximo
+    // PRÓXIMO
     if (index < ordemPeriodos.length - 1) {
         const idProximo = ordemPeriodos[index + 1];
 
@@ -81,56 +229,83 @@ function controlarNavegacao(idAtual, data) {
     }
 }
 
+// ===============================
+// 🔹 CARREGAR PERÍODO (JSON)
+// ===============================
 async function carregarPeriodo() {
 
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
-    const response = await fetch("data/periodos.json");
-    const data = await response.json();
+    if (!id) return;
 
-    const periodo = data[id];
+    try {
+        const response = await fetch("data/periodos.json");
+        const data = await response.json();
 
-    if (!periodo) return; // evita erro
+        const periodo = data[id];
 
-    document.title = periodo.nome_menu;
+        if (!periodo) return;
 
-    document.querySelector(".navbar h1").innerText = periodo.nome_menu;
+        // TÍTULO DA ABA
+        document.title = periodo.nome_menu;
 
-    document.getElementById("titulo").innerText = periodo.titulo;
-    document.getElementById("descricao").innerText = periodo.descricao;
+        // NAVBAR
+        const navTitle = document.querySelector(".navbar h1");
+        if (navTitle) navTitle.innerText = periodo.nome_menu;
 
-    const container = document.getElementById("container-obras");
+        // CONTEÚDO
+        const titulo = document.getElementById("titulo");
+        const descricao = document.getElementById("descricao");
+        const container = document.getElementById("container-obras");
 
-    container.innerHTML = ""; // limpa antes
+        if (!titulo || !descricao || !container) return;
 
+        titulo.innerText = periodo.titulo;
+        descricao.innerText = periodo.descricao;
 
-    periodo.obras.forEach(obra => {
-        container.innerHTML += `
-        <div class="col-12 col-md-6 col-lg-4">
+        // OBRAS
+        let html = "";
 
-            <div class="exposição">
+        periodo.obras.forEach(obra => {
 
-                <div class="card_obras">
-                    <h3>${obra.titulo}</h3>
-                    <div class="obra">
-                        <img src="${obra.imagem}" alt="${obra.titulo}">
+            const midia = obra.embed
+                ? `<iframe src="${obra.embed}" frameborder="0" allowfullscreen></iframe>`
+                : `<img src="${obra.imagem}" alt="${obra.titulo}">`;
+
+            html += `
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="exposição">
+
+                    <div title="${obra.titulo}" class="card_obras">
+                        <h3>${obra.titulo}</h3>
+                        <div class="obra">
+                            ${midia}
+                        </div>
                     </div>
-                </div>
 
-                <div class="legenda">
-                    <p><b>Ano:</b> ${obra.ano}</p>
-                    <p><b>Autor:</b> ${obra.autor}</p>
-                    <p><b>Local:</b> ${obra.local}</p>
-                    <p><b>Descrição:</b> ${obra.descricao}</p>
-                    <p><b>Interpretação:</b> ${obra.interpretacao}</p>
+                    <div class="legenda">
+                        <p><b>Ano:</b> ${obra.ano}</p>
+                        <p><b>Autor:</b> ${obra.autor}</p>
+                        <p><b>Local atual:</b> ${obra.local}</p>
+                        <p><b>Descrição:</b> ${obra.descricao}</p>
+                    </div>
+
                 </div>
 
             </div>
+            `;
+        });
 
-        </div>
-        `;
-    });
+        container.innerHTML = html;
 
-    controlarNavegacao(id, data);
+        controlarNavegacao(id, data);
+
+        // SCROLL TOP
+        window.scrollTo(0, 0);
+
+    } catch (erro) {
+        console.error("Erro ao carregar JSON:", erro);
+    }
 }
