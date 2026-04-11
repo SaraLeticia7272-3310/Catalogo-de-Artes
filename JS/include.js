@@ -5,8 +5,8 @@ const ordemPeriodos = [
     "romantismo",
     "impressionismo",
     "expressionismo",
-    "cubismo",
     "fauvismo",
+    "cubismo",
     "dadaismo",
     "surrealismo",
     "pop-art",
@@ -15,6 +15,7 @@ const ordemPeriodos = [
 
 document.addEventListener("DOMContentLoaded", async () => {
 
+    document.body.classList.add("loaded");
     // HEAD
     const headInclude = document.querySelector("[data-include-head]");
     if (headInclude) {
@@ -33,23 +34,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // 🔥 AGORA SIM tudo existe no HTML
 
-    destacarMenu();
     carregarPeriodo();
-
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 500);
 });
-
-function destacarMenu() {
-    const params = new URLSearchParams(window.location.search);
-    const atual = params.get("id");
-
-    const links = document.querySelectorAll(".nav-link");
-
-    links.forEach(link => {
-        if (link.dataset.id === atual) {
-            link.classList.add("ativo");
-        }
-    });
-}
 
 function controlarNavegacao(idAtual, data) {
 
@@ -86,6 +75,14 @@ async function carregarPeriodo() {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
 
+    const links = document.querySelectorAll(".nav-link");
+
+    links.forEach(link => {
+        if (link.dataset.id === id) {
+            link.classList.add("ativo");
+        }
+    });
+
     const response = await fetch("data/periodos.json");
     const data = await response.json();
 
@@ -104,33 +101,40 @@ async function carregarPeriodo() {
 
     container.innerHTML = ""; // limpa antes
 
-
     periodo.obras.forEach(obra => {
+        const midia = obra.embed
+            ? `<iframe src="${obra.embed}" 
+                 frameborder="0" 
+                 allowfullscreen></iframe>`
+            : `<img src="${obra.imagem}" alt="${obra.titulo}">`;
         container.innerHTML += `
-        <div class="col-12 col-md-6 col-lg-4">
+         <div class="col-12 col-md-6 col-lg-4">
 
-            <div class="exposição">
+             <div class="exposição">
 
-                <div class="card_obras">
-                    <h3>${obra.titulo}</h3>
-                    <div class="obra">
-                        <img src="${obra.imagem}" alt="${obra.titulo}">
-                    </div>
-                </div>
+                 <div title="${obra.titulo}" class="card_obras">
+                     <h3>${obra.titulo}</h3>
+                     <div class="obra">
+                         ${midia}
+                     </div>
+                 </div>
 
-                <div class="legenda">
-                    <p><b>Ano:</b> ${obra.ano}</p>
-                    <p><b>Autor:</b> ${obra.autor}</p>
-                    <p><b>Local:</b> ${obra.local}</p>
-                    <p><b>Descrição:</b> ${obra.descricao}</p>
-                    <p><b>Interpretação:</b> ${obra.interpretacao}</p>
-                </div>
+                 <div class="legenda">
+                     <p><b>Ano:</b> ${obra.ano}</p>
+                     <p><b>Autor:</b> ${obra.autor}</p>
+                     <p><b>Local atual:</b> ${obra.local}</p>
+                     <p><b>Descrição:</b> ${obra.descricao}</p>
+                 </div>
 
-            </div>
+             </div>
 
-        </div>
-        `;
+         </div>
+         `;
     });
 
     controlarNavegacao(id, data);
+}
+
+function initPage() {
+    carregarPeriodo();
 }
