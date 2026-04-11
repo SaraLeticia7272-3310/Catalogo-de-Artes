@@ -1,8 +1,8 @@
 {
     "classico": {
         "nome_menu": "Clássico",
-        "titulo": "Período Clássico",
-        "descricao": "Na arte clássica, o foco era representar o ser humano de forma perfeita e equilibrada. Os artistas buscavam proporções ideais, harmonia e beleza, como se estivessem tentando criar um “modelo perfeito” do corpo humano. Isso aconteceu porque, na Grécia e em Roma, havia uma grande valorização da razão, da filosofia e do conhecimento. O ser humano era visto como o centro de tudo, então a arte refletia essa ideia de perfeição e equilíbrio.",
+        "titulo": "Clássico",
+        "descricao": "A arte clássica, desenvolvida na Grécia e em Roma antigas, buscava representar o ser humano com perfeição, equilíbrio e harmonia. Valorizava proporções ideais, beleza e racionalidade, refletindo a importância da filosofia, da ciência e do pensamento lógico. O corpo humano era o centro das obras, visto como modelo de perfeição.",
         "obras": [
             {
                 "titulo": "Auriga de Delfos",
@@ -56,8 +56,8 @@
     },
     "renascimento": {
         "nome_menu": "Renascimento",
-        "titulo": "Período Renascentista",
-        "descricao": "O Renascimento marcou o retorno aos valores da antiguidade clássica, com foco no ser humano, na ciência e na natureza. Os artistas passaram a usar técnicas como a perspectiva, criando obras mais realistas. Esse movimento surgiu com o crescimento das cidades e novas ideias científicas.",
+        "titulo": "Renascimento",
+        "descricao": "O Renascimento marcou o retorno aos valores da Antiguidade Clássica, com foco no ser humano, na ciência e na natureza. Surgido na Europa entre os séculos XIV e XVI, trouxe avanços como o uso da perspectiva e maior realismo nas obras. Foi impulsionado pelo crescimento das cidades, pelo humanismo e pelas descobertas científicas.",
         "obras": [
             {
                 "titulo": "A Flagelação de Cristo",
@@ -111,8 +111,8 @@
     },
     "barroco": {
         "nome_menu": "Barroco",
-        "titulo": "Período Barroco",
-        "descricao": "O Barroco é uma arte cheia de emoção, drama e intensidade. As obras costumam ter muito contraste entre luz e sombra e passam uma sensação forte, quase teatral. Isso aconteceu principalmente por causa da Igreja Católica, que queria reconquistar fiéis durante um período de conflitos religiosos. Então, a arte era usada como uma forma de impactar as pessoas e provocar emoção.",
+        "titulo": "Barroco",
+        "descricao": "O Barroco é um estilo artístico dos séculos XVII e XVIII marcado por emoção, dramaticidade e contraste entre luz e sombra. Surgiu em meio a conflitos religiosos e foi fortemente influenciado pela Igreja Católica, que utilizava a arte para impactar e comover os fiéis. As obras têm caráter intenso, teatral e detalhado.",
         "obras": [
             {
                 "titulo": "Judite Decapitando Holofernes",
@@ -166,8 +166,8 @@
     },
     "romantismo": {
         "nome_menu": "Romantismo",
-        "titulo": "Período Romântico",
-        "descricao": "O Romantismo valoriza a emoção, a liberdade e a expressão individual. As obras mostram sentimentos intensos, como amor, medo e solidão, além de destacar a força da natureza. Esse movimento surgiu em meio a revoluções e mudanças sociais, como uma reação contra o excesso de razão.",
+        "titulo": "Romantismo",
+        "descricao": "O Romantismo valorizou a emoção, a liberdade e a expressão individual entre os séculos XVIII e XIX. Surgiu como reação ao racionalismo, destacando sentimentos intensos, a natureza e o imaginário. As obras frequentemente abordam temas como amor, solidão, drama e a força da natureza.",
         "obras": [
             {
                 "titulo": "O Pesadelo",
@@ -222,7 +222,7 @@
     "impressionismo": {
         "nome_menu": "Impressionismo",
         "titulo": "Impressionismo",
-        "descricao": "O Impressionismo busca capturar momentos e sensações, principalmente a luz e o movimento. As pinturas são feitas com pinceladas rápidas e cores vivas. Surgiu com a modernização das cidades e a invenção da fotografia.",
+        "descricao": "O Impressionismo surgiu no século XIX e buscava capturar momentos e sensações, especialmente os efeitos da luz e do movimento. Os artistas utilizavam pinceladas rápidas e cores vivas, retratando cenas do cotidiano. Foi influenciado pela modernização das cidades e pela invenção da fotografia.",
         "obras": [
             {
                 "titulo": "A Gare Saint-Lazare",
@@ -277,7 +277,7 @@
     "expressionismo": {
         "nome_menu": "Expressionismo",
         "titulo": "Expressionismo",
-        "descricao": "O Expressionismo distorce a realidade para expressar emoções intensas. As cores são fortes e as formas exageradas. Surgiu em um período de crise e tensão social, especialmente próximo às guerras.",
+        "descricao": "O Expressionismo, desenvolvido no início do século XX, distorce a realidade para expressar emoções intensas. Utiliza cores fortes, formas exageradas e traços marcantes. Surgiu em um contexto de crise social e tensão pré-guerras, refletindo angústia, medo e conflitos internos.",
         "obras": [
             {
                 "titulo": "O Cavaleiro Azul",
@@ -329,65 +329,10 @@
             }
         ]
     },
-    "cubismo": {
-        "nome_menu": "Cubismo",
-        "titulo": "Cubismo",
-        "descricao": "O Cubismo apresenta objetos de vários ângulos ao mesmo tempo, usando formas geométricas. Ele rompe com a perspectiva tradicional e propõe uma nova forma de ver a realidade.",
-        "obras": [
-            {
-                "titulo": "Les Demoiselles d'Avignon",
-                "imagem": "Assets/cubismo/dAvignon.jpg",
-                "autor": "Pablo Picasso",
-                "ano": "1907",
-                "local": "MoMA, Nova York",
-                "descricao": "Marco inicial do cubismo, apresenta figuras femininas com rostos inspirados em máscaras africanas e formas angulares."
-            },
-            {
-                "titulo": "Viaduto em L'Estaque",
-                "imagem": "Assets/cubismo/viaduto.jpeg",
-                "autor": "Georges Braque",
-                "ano": "1908",
-                "local": "Museus Estatais de Berlim",
-                "descricao": "Paisagem simplificada em formas geométricas e cores terrosas, característica do cubismo inicial."
-            },
-            {
-                "titulo": "Retrato de Ambroise Vollard",
-                "imagem": "Assets/cubismo/vollard.jpeg",
-                "autor": "Pablo Picasso",
-                "ano": "1910",
-                "local": "Museu Pushkin, Moscou",
-                "descricao": "Exemplo de cubismo analítico, com formas fragmentadas que quase se fundem ao fundo."
-            },
-            {
-                "titulo": "A Guitarra",
-                "imagem": "Assets/cubismo/violao.jpeg",
-                "autor": "Juan Gris",
-                "ano": "1913",
-                "local": "Art Institute of Chicago",
-                "descricao": "Obra do cubismo sintético com cores mais vivas e formas reorganizadas de maneira plana."
-            },
-            {
-                "titulo": "Guernica",
-                "imagem": "Assets/cubismo/guernica.webp",
-                "autor": "Pablo Picasso",
-                "ano": "1937",
-                "local": "Museu Reina Sofía, Madri",
-                "descricao": "Obra poderosa que retrata os horrores da guerra, com formas fragmentadas e uma paleta de cores restrita."
-            },
-            {
-                "titulo": "O Homem no Café",
-                "imagem": "Assets/cubismo/oHomem.jpeg",
-                "autor": "Juan Gris",
-                "ano": "1914",
-                "local": "Museu Thyssen-Bornemisza, Madri",
-                "descricao": "Uso de colagem e padrões sobrepostos para construir uma cena fragmentada e estilizada."
-            }
-        ]
-    },
     "fauvismo": {
         "nome_menu": "Fauvismo",
         "titulo": "Fauvismo",
-        "descricao": "O Fauvismo é marcado pelo uso de cores intensas e irreais, com formas simples e foco na expressão. Os artistas buscavam liberdade criativa, sem se preocupar em representar a realidade de forma fiel.",
+        "descricao": "O Fauvismo, surgido no início do século XX, é caracterizado pelo uso de cores intensas e não realistas. As formas são simplificadas e a prioridade é a expressão e o impacto visual. Os artistas buscavam liberdade criativa, sem compromisso com a representação fiel da realidade.",
         "obras": [
             {
                 "titulo": "Mulher com Chapéu",
@@ -439,10 +384,65 @@
             }
         ]
     },
+    "cubismo": {
+        "nome_menu": "Cubismo",
+        "titulo": "Cubismo",
+        "descricao": "O Cubismo, criado no início do século XX, rompe com a perspectiva tradicional ao representar objetos a partir de vários ângulos ao mesmo tempo. Utiliza formas geométricas e fragmentação das figuras, propondo uma nova maneira de enxergar a realidade.",
+        "obras": [
+            {
+                "titulo": "Les Demoiselles d'Avignon",
+                "imagem": "Assets/cubismo/dAvignon.jpg",
+                "autor": "Pablo Picasso",
+                "ano": "1907",
+                "local": "MoMA, Nova York",
+                "descricao": "Marco inicial do cubismo, apresenta figuras femininas com rostos inspirados em máscaras africanas e formas angulares."
+            },
+            {
+                "titulo": "Viaduto em L'Estaque",
+                "imagem": "Assets/cubismo/viaduto.jpeg",
+                "autor": "Georges Braque",
+                "ano": "1908",
+                "local": "Museus Estatais de Berlim",
+                "descricao": "Paisagem simplificada em formas geométricas e cores terrosas, característica do cubismo inicial."
+            },
+            {
+                "titulo": "Retrato de Ambroise Vollard",
+                "imagem": "Assets/cubismo/vollard.jpeg",
+                "autor": "Pablo Picasso",
+                "ano": "1910",
+                "local": "Museu Pushkin, Moscou",
+                "descricao": "Exemplo de cubismo analítico, com formas fragmentadas que quase se fundem ao fundo."
+            },
+            {
+                "titulo": "A Guitarra",
+                "imagem": "Assets/cubismo/violao.jpeg",
+                "autor": "Juan Gris",
+                "ano": "1913",
+                "local": "Art Institute of Chicago",
+                "descricao": "Obra do cubismo sintético com cores mais vivas e formas reorganizadas de maneira plana."
+            },
+            {
+                "titulo": "Guernica",
+                "imagem": "Assets/cubismo/guernica.webp",
+                "autor": "Pablo Picasso",
+                "ano": "1937",
+                "local": "Museu Reina Sofía, Madri",
+                "descricao": "Obra poderosa que retrata os horrores da guerra, com formas fragmentadas e uma paleta de cores restrita."
+            },
+            {
+                "titulo": "O Homem no Café",
+                "imagem": "Assets/cubismo/oHomem.jpeg",
+                "autor": "Juan Gris",
+                "ano": "1914",
+                "local": "Museu Thyssen-Bornemisza, Madri",
+                "descricao": "Uso de colagem e padrões sobrepostos para construir uma cena fragmentada e estilizada."
+            }
+        ]
+    },
     "dadaismo": {
         "nome_menu": "Dadaísmo",
         "titulo": "Dadaísmo",
-        "descricao": "O Dadaísmo rejeita a lógica e os padrões tradicionais da arte. É um movimento provocador, muitas vezes sem sentido, criado como forma de protesto contra a sociedade após a Primeira Guerra Mundial.",
+        "descricao": "O Dadaísmo surgiu durante a Primeira Guerra Mundial como um movimento de protesto contra a sociedade e seus valores. Rejeita a lógica, a razão e os padrões tradicionais da arte, sendo provocador e muitas vezes absurdo. Influenciou diversas correntes da arte moderna.",
         "obras": [
             {
                 "titulo": "A Fonte",
@@ -497,7 +497,7 @@
     "surrealismo": {
         "nome_menu": "Surrealismo",
         "titulo": "Surrealismo",
-        "descricao": "O Surrealismo explora o inconsciente, os sonhos e a imaginação. Mistura elementos reais com situações impossíveis, criando imagens estranhas e simbólicas.",
+        "descricao": "O Surrealismo, surgido no século XX, explora o inconsciente, os sonhos e a imaginação. Inspirado na psicanálise, mistura elementos reais com situações irreais, criando imagens simbólicas e ilógicas que buscam revelar os desejos ocultos da mente humana.",
         "obras": [
             {
                 "titulo": "A Persistência da Memória",
@@ -552,7 +552,7 @@
     "pop-art": {
         "nome_menu": "Pop Art",
         "titulo": "Pop Art",
-        "descricao": "A Pop Art usa elementos da cultura popular, como celebridades e produtos, transformando o cotidiano em arte. Reflete o crescimento da mídia e do consumo.",
+        "descricao": "A Pop Art surgiu no século XX e utiliza elementos da cultura popular, como produtos, celebridades e mídia. As obras transformam o cotidiano em arte, refletindo o consumo, a publicidade e a sociedade moderna de forma crítica e visualmente impactante.",
         "obras": [
             {
                 "titulo": "Campbell's Soup Cans",
@@ -607,7 +607,7 @@
     "op-art": {
         "nome_menu": "Op Art",
         "titulo": "Op Art",
-        "descricao": "A Op Art utiliza padrões geométricos e contrastes para criar ilusões de ótica. As obras parecem se mover ou vibrar, explorando a forma como o olho humano percebe imagens.",
+        "descricao": "A Op Art, desenvolvida no século XX, utiliza padrões geométricos e contrastes para criar ilusões de ótica. As obras dão a impressão de movimento, vibração ou profundidade, explorando a forma como o olho humano percebe imagens.",
         "obras": [
             {
                 "titulo": "Movement in Squares",
