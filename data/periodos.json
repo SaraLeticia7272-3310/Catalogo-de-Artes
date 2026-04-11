@@ -49,7 +49,7 @@
                 "embed": "https://www.youtube.com/embed/ezhU0-WedSs?si=TH_dBmlQXktLArlL",
                 "autor": "Desconhecido",
                 "ano": "Século I",
-                "local": "Museu da Dinamarca",
+                "local": "Museu Nacional da Dinamarca (Copenhague)",
                 "descricao": "A música completa mais antiga já registrada."
             }
         ]
@@ -72,7 +72,7 @@
                 "imagem": "Assets/renascimento/ceia.webp",
                 "autor": "Leonardo da Vinci",
                 "ano": "1498",
-                "local": "Milão",
+                "local": "Convento de Santa Maria delle Grazie, Milão",
                 "descricao": "Cena de Jesus com seus discípulos."
             },
             {
@@ -143,7 +143,7 @@
                 "imagem": "Assets/barroco/teresa.jpg",
                 "autor": "Bernini",
                 "ano": "1652",
-                "local": "Roma",
+                "local": "Igreja de Santa Maria della Vittoria, Roma",
                 "descricao": "Escultura religiosa intensa."
             },
             {
@@ -174,7 +174,7 @@
                 "imagem": "Assets/romantismo/pesadelo.jpg",
                 "autor": "Henry Fuseli",
                 "ano": "1781",
-                "local": "Instituto de Artes de Detroit",
+                "local": "Detroit Institute of Arts, EUA",
                 "descricao": "Cena sombria com figura dormindo e criatura demoníaca."
             },
             {
@@ -237,7 +237,7 @@
                 "imagem": "Assets/impressionismo/nenu.jpg",
                 "autor": "Monet",
                 "ano": "1916",
-                "local": "Museu de Orsay",
+                "local": "Musée de l'Orangerie, Paris",
                 "descricao": "Lago com flores aquáticas."
             },
             {
@@ -282,10 +282,10 @@
             {
                 "titulo": "O Cavaleiro Azul",
                 "imagem": "Assets/expressionismo/cavaleiro.png",
-                "autor": "",
-                "ano": "",
-                "local": "",
-                "descricao": ""
+                "autor": "Kandinsky",
+                "ano": "1913",
+                "local": "Museu de Arte Moderna, Nova York",
+                "descricao": "Obra pioneira do expressionismo, com formas abstratas e cores intensas."
             },
             {
                 "titulo": "Noite Estrelada",
@@ -306,10 +306,10 @@
             {
                 "titulo": "Autorretrato como Soldado",
                 "imagem": "Assets/expressionismo/soldado.jpg",
-                "autor": "",
-                "ano": "",
-                "local": "",
-                "descricao": ""
+                "autor": "Ernst Ludwig Kirchner",
+                "ano": "1915",
+                "local": "Allen Memorial Art Museum, EUA",
+                "descricao": "Autorretrato do artista com uniforme militar, representando o impacto psicológico da guerra."
             },
             {
                 "titulo": "O Grito",
@@ -335,52 +335,52 @@
         "descricao": "O Cubismo apresenta objetos de vários ângulos ao mesmo tempo, usando formas geométricas. Ele rompe com a perspectiva tradicional e propõe uma nova forma de ver a realidade.",
         "obras": [
             {
-                "titulo": "Homem com Violão",
-                "imagem": "Assets/cubismo/violao.webp",
+                "titulo": "Les Demoiselles d'Avignon",
+                "imagem": "Assets/cubismo/dAvignon.jpg",
+                "autor": "Pablo Picasso",
+                "ano": "1907",
+                "local": "MoMA, Nova York",
+                "descricao": "Marco inicial do cubismo, apresenta figuras femininas com rostos inspirados em máscaras africanas e formas angulares."
+            },
+            {
+                "titulo": "Viaduto em L'Estaque",
+                "imagem": "Assets/cubismo/viaduto.jpeg",
                 "autor": "Georges Braque",
-                "ano": "1911",
-                "local": "Museu de Arte Moderna",
-                "descricao": "Figura fragmentada em formas geométricas."
+                "ano": "1908",
+                "local": "Museus Estatais de Berlim",
+                "descricao": "Paisagem simplificada em formas geométricas e cores terrosas, característica do cubismo inicial."
+            },
+            {
+                "titulo": "Retrato de Ambroise Vollard",
+                "imagem": "Assets/cubismo/vollard.jpeg",
+                "autor": "Pablo Picasso",
+                "ano": "1910",
+                "local": "Museu Pushkin, Moscou",
+                "descricao": "Exemplo de cubismo analítico, com formas fragmentadas que quase se fundem ao fundo."
+            },
+            {
+                "titulo": "A Guitarra",
+                "imagem": "Assets/cubismo/violao.jpeg",
+                "autor": "Juan Gris",
+                "ano": "1913",
+                "local": "Art Institute of Chicago",
+                "descricao": "Obra do cubismo sintético com cores mais vivas e formas reorganizadas de maneira plana."
             },
             {
                 "titulo": "Guernica",
                 "imagem": "Assets/cubismo/guernica.webp",
-                "autor": "Picasso",
+                "autor": "Pablo Picasso",
                 "ano": "1937",
-                "local": "Museu Reina Sofía",
-                "descricao": "Cena de guerra em preto e branco."
+                "local": "Museu Reina Sofía, Madri",
+                "descricao": "Obra poderosa que retrata os horrores da guerra, com formas fragmentadas e uma paleta de cores restrita."
             },
             {
-                "titulo": "Homem com Violão",
-                "imagem": "Assets/cubismo/violao.webp",
-                "autor": "Braque",
-                "ano": "1911",
-                "local": "Museu de Arte Moderna",
-                "descricao": "Figura fragmentada com instrumento."
-            },
-            {
-                "titulo": "Três Músicos",
-                "imagem": "Assets/cubismo/musicos.webp",
-                "autor": "Picasso",
-                "ano": "1921",
-                "local": "MoMA",
-                "descricao": "Personagens em formas geométricas."
-            },
-            {
-                "titulo": "Les Demoiselles d’Avignon",
-                "imagem": "Assets/cubismo/demoiselles.webp",
-                "autor": "Picasso",
-                "ano": "1907",
-                "local": "MoMA",
-                "descricao": "Figuras femininas com formas geométricas."
-            },
-            {
-                "titulo": "Parade",
-                "embed": "",
-                "autor": "Erik Satie",
-                "ano": "1917",
-                "local": "França",
-                "descricao": "Trilha experimental de balé."
+                "titulo": "O Homem no Café",
+                "imagem": "Assets/cubismo/oHomem.jpeg",
+                "autor": "Juan Gris",
+                "ano": "1914",
+                "local": "Museu Thyssen-Bornemisza, Madri",
+                "descricao": "Uso de colagem e padrões sobrepostos para construir uma cena fragmentada e estilizada."
             }
         ]
     },
@@ -390,52 +390,52 @@
         "descricao": "O Fauvismo é marcado pelo uso de cores intensas e irreais, com formas simples e foco na expressão. Os artistas buscavam liberdade criativa, sem se preocupar em representar a realidade de forma fiel.",
         "obras": [
             {
-                "titulo": "A Dança (versão inicial)",
-                "imagem": "Assets/fauvismo/danca.webp",
-                "autor": "Henri Matisse",
-                "ano": "1909",
-                "local": "Museu Hermitage",
-                "descricao": "Figuras dançando em cores vibrantes."
-            },
-            {
-                "titulo": "A Alegria de Viver",
-                "imagem": "Assets/fauvismo/alegria.webp",
-                "autor": "Matisse",
-                "ano": "1906",
-                "local": "Fundação Barnes",
-                "descricao": "Cena com figuras em um ambiente colorido."
-            },
-            {
                 "titulo": "Mulher com Chapéu",
-                "imagem": "Assets/fauvismo/chapeu.webp",
-                "autor": "Matisse",
+                "imagem": "Assets/fauvismo/aMulher.jpeg",
+                "autor": "Henri Matisse",
                 "ano": "1905",
-                "local": "Museu de Arte Moderna de San Francisco",
-                "descricao": "Retrato com cores fortes e não realistas."
+                "local": "SFMOMA, São Francisco",
+                "descricao": "Retrato com cores vibrantes e não realistas, que causou impacto por sua ousadia."
+            },
+            {
+                "titulo": "O Porto de Collioure",
+                "imagem": "Assets/fauvismo/oPorto.jpg",
+                "autor": "André Derain",
+                "ano": "1905",
+                "local": "Centre Pompidou, Paris, França",
+                "descricao": "Paisagem do porto de Collioure com uso de cores intensas e não realistas, característica marcante do Fauvismo, priorizando a expressão e o impacto visual em vez da fidelidade à realidade."
+            },
+            {
+                "titulo": "A Dança (II)",
+                "imagem": "Assets/fauvismo/aDanca.jpeg",
+                "autor": "Henri Matisse",
+                "ano": "1910",
+                "local": "Museu Hermitage, São Petersburgo",
+                "descricao": "Figuras humanas em movimento com cores fortes, transmitindo ritmo e energia."
+            },
+            {
+                "titulo": "Árvores Vermelhas",
+                "imagem": "Assets/fauvismo/arvores.jpeg",
+                "autor": "Maurice de Vlaminck",
+                "ano": "1906",
+                "local": "Musée d'Orsay, Paris",
+                "descricao": "Paisagem com cores intensas e pinceladas expressivas que destacam emoção."
+            },
+            {
+                "titulo": "O Porto de Antuérpia",
+                "imagem": "Assets/fauvismo/portoAntuerpia.jpeg",
+                "autor": "Georges Braque",
+                "ano": "1906",
+                "local": "Galeria Nacional do Canadá, Ottawa",
+                "descricao": "Uso de cores vibrantes e simplificação das formas antes do desenvolvimento do cubismo."
             },
             {
                 "titulo": "Ponte de Charing Cross",
-                "imagem": "Assets/fauvismo/ponte.webp",
+                "imagem": "Assets/fauvismo/ponte.jpeg",
                 "autor": "André Derain",
                 "ano": "1906",
-                "local": "Museu de Belas Artes",
-                "descricao": "Paisagem urbana com cores intensas."
-            },
-            {
-                "titulo": "A Dança",
-                "imagem": "Assets/fauvismo/danca.webp",
-                "autor": "Henri Matisse",
-                "ano": "1910",
-                "local": "Museu Hermitage",
-                "descricao": "Figuras dançando em círculo com cores vibrantes."
-            },
-            {
-                "titulo": "Boléro",
-                "embed": "",
-                "autor": "Maurice Ravel",
-                "ano": "1928",
-                "local": "França",
-                "descricao": "Composição musical repetitiva e crescente."
+                "local": "Museu Thyssen-Bornemisza, Madri",
+                "descricao": "Representação de Londres com cores intensas e formas simplificadas, priorizando a cor."
             }
         ]
     },
@@ -445,52 +445,52 @@
         "descricao": "O Dadaísmo rejeita a lógica e os padrões tradicionais da arte. É um movimento provocador, muitas vezes sem sentido, criado como forma de protesto contra a sociedade após a Primeira Guerra Mundial.",
         "obras": [
             {
-                "titulo": "Colagem com Quadrados Arranjados",
-                "imagem": "Assets/dadaismo/colagem.webp",
-                "autor": "Hans Arp",
-                "ano": "1916",
-                "local": "MoMA, Nova York",
-                "descricao": "Composição abstrata feita com recortes."
+                "titulo": "A Fonte",
+                "imagem": "Assets/dadaismo/fonte.jpeg",
+                "autor": "Marcel Duchamp",
+                "ano": "1917",
+                "local": "Obra original perdida (réplicas em museus como Tate Modern)",
+                "descricao": "Urinol de porcelana branca apresentado de forma invertida, com a inscrição 'R. Mutt 1917', questionando o conceito tradicional de arte."
             },
             {
                 "titulo": "L.H.O.O.Q.",
-                "imagem": "Assets/dadaismo/lhooq.webp",
-                "autor": "Duchamp",
+                "imagem": "Assets/dadaismo/lhooq.jpg",
+                "autor": "Marcel Duchamp",
                 "ano": "1919",
-                "local": "Coleção privada",
-                "descricao": "Mona Lisa com intervenções irônicas."
+                "local": "Museu de Arte de Filadélfia, EUA",
+                "descricao": "Reprodução da Mona Lisa com bigode e cavanhaque desenhados, criando uma intervenção irônica sobre uma obra clássica."
             },
             {
-                "titulo": "Cabeça Mecânica",
-                "imagem": "Assets/dadaismo/cabeca.webp",
+                "titulo": "O Crítico de Arte",
+                "imagem": "Assets/dadaismo/oCritico.jpeg",
+                "autor": "Raoul Hausmann",
+                "ano": "1919",
+                "local": "Desconhecida",
+                "descricao": "Figura humana construída com colagens de imagens e textos, formando um corpo fragmentado e não realista."
+            },
+            {
+                "titulo": "O Presente",
+                "imagem": "Assets/dadaismo/presente.jpeg",
+                "autor": "Man Ray",
+                "ano": "1921",
+                "local": "Desconhecida",
+                "descricao": "Ferro de passar com pregos fixados na base, transformando um objeto comum em algo inutilizável e provocativo."
+            },
+            {
+                "titulo": "Desfile Amoroso",
+                "imagem": "Assets/dadaismo/desfile.jpeg",
+                "autor": "Francis Picabia",
+                "ano": "1917",
+                "local": "Desconhecida",
+                "descricao": "Composição com formas mecânicas e esquemáticas, lembrando engrenagens e diagramas técnicos."
+            },
+            {
+                "titulo": "A Cabeça Mecânica: O Espírito de Nosso Tempo",
+                "imagem": "Assets/dadaismo/cabeça.jpeg",
                 "autor": "Raoul Hausmann",
                 "ano": "1920",
-                "local": "Museu de Arte Moderna",
-                "descricao": "Escultura com objetos do cotidiano."
-            },
-            {
-                "titulo": "Corte com a Faca de Cozinha",
-                "imagem": "Assets/dadaismo/faca.webp",
-                "autor": "Hannah Höch",
-                "ano": "1919",
-                "local": "Museu de Berlim",
-                "descricao": "Colagem com imagens fragmentadas."
-            },
-            {
-                "titulo": "Fonte",
-                "imagem": "Assets/dadaismo/fonte.webp",
-                "autor": "Marcel Duchamp",
-                "ano": "1917",
-                "local": "Museu de Arte Moderna",
-                "descricao": "Um urinol apresentado como obra de arte."
-            },
-            {
-                "titulo": "Karawane",
-                "embed": "",
-                "autor": "Hugo Ball",
-                "ano": "1916",
-                "local": "Zurique",
-                "descricao": "Poema sonoro sem sentido lógico."
+                "local": "Centre Pompidou, Paris",
+                "descricao": "Cabeça de manequim com objetos como régua, engrenagens e placas metálicas presos, representando a mecanização do pensamento."
             }
         ]
     },
@@ -500,52 +500,52 @@
         "descricao": "O Surrealismo explora o inconsciente, os sonhos e a imaginação. Mistura elementos reais com situações impossíveis, criando imagens estranhas e simbólicas.",
         "obras": [
             {
-                "titulo": "O Filho do Homem",
-                "imagem": "Assets/surrealismo/filho.webp",
-                "autor": "René Magritte",
-                "ano": "1964",
-                "local": "Coleção privada",
-                "descricao": "Homem com rosto coberto por uma maçã."
-            },
-            {
-                "titulo": "O Filho do Homem",
-                "imagem": "Assets/surrealismo/filho.webp",
-                "autor": "Magritte",
-                "ano": "1964",
-                "local": "Coleção privada",
-                "descricao": "Homem com rosto coberto por maçã."
+                "titulo": "A Persistência da Memória",
+                "imagem": "Assets/surrealismo/memoria.jpeg",
+                "autor": "Salvador Dalí",
+                "ano": "1931",
+                "local": "MoMA, Nova York",
+                "descricao": "Relógios deformados e fluidos em uma paisagem aberta, criando uma sensação de tempo distorcido e sonho."
             },
             {
                 "titulo": "Os Amantes",
-                "imagem": "Assets/surrealismo/amantes.webp",
-                "autor": "Magritte",
+                "imagem": "Assets/surrealismo/amantes.jpeg",
+                "autor": "René Magritte",
                 "ano": "1928",
-                "local": "MoMA",
-                "descricao": "Casal com rostos cobertos."
+                "local": "MoMA, Nova York",
+                "descricao": "Duas figuras com rostos cobertos por tecido se aproximam, criando uma cena misteriosa e simbólica."
             },
             {
-                "titulo": "Carnaval de Arlequim",
-                "imagem": "Assets/surrealismo/carnaval.webp",
-                "autor": "Miró",
-                "ano": "1925",
-                "local": "Galeria Albright-Knox",
-                "descricao": "Cena abstrata e fantasiosa."
+                "titulo": "Urutu",
+                "imagem": "Assets/surrealismo/urutu.jpeg",
+                "autor": "Tarsila do Amaral",
+                "ano": "1928",
+                "local": "MAM Rio, Brasil",
+                "descricao": "Serpente enrolada com cores contrastantes e formas definidas, destacando-se sobre fundo simples."
             },
             {
-                "titulo": "A Persistência da Memória",
-                "imagem": "Assets/surrealismo/memoria.webp",
-                "autor": "Salvador Dalí",
-                "ano": "1931",
-                "local": "MoMA",
-                "descricao": "Relógios derretendo em uma paisagem."
+                "titulo": "Irmãos",
+                "imagem": "Assets/surrealismo/irmaos.jpeg",
+                "autor": "Paul Klee",
+                "ano": "1930",
+                "local": "Zentrum Paul Klee, Suíça",
+                "descricao": "Duas figuras estilizadas e geométricas lado a lado, com formas simples e cores suaves."
             },
             {
-                "titulo": "Gnossienne No.1",
-                "embed": "",
-                "autor": "Erik Satie",
-                "ano": "1890",
-                "local": "França",
-                "descricao": "Peça musical misteriosa."
+                "titulo": "O Filho do Homem",
+                "imagem": "Assets/surrealismo/oFilho.jpeg",
+                "autor": "René Magritte",
+                "ano": "1964",
+                "local": "Coleção privada (exibida em museus internacionais)",
+                "descricao": "Homem de terno com o rosto coberto por uma maçã verde flutuante, criando um efeito de ocultação."
+            },
+            {
+                "titulo": "As Duas Fridas",
+                "imagem": "Assets/surrealismo/fridas.jpeg",
+                "autor": "Frida Kahlo",
+                "ano": "1939",
+                "local": "Museu de Arte Moderna, México",
+                "descricao": "Duas figuras da artista conectadas por corações e vasos sanguíneos, representando identidade e emoção."
             }
         ]
     },
@@ -610,12 +610,12 @@
         "descricao": "A Op Art utiliza padrões geométricos e contrastes para criar ilusões de ótica. As obras parecem se mover ou vibrar, explorando a forma como o olho humano percebe imagens.",
         "obras": [
             {
-                "titulo": "Relativity",
-                "imagem": "Assets/op-art/relativity.jpeg",
-                "autor": "M. C. Escher",
-                "ano": "1953",
-                "local": "Museus e coleções (Holanda)",
-                "descricao": "Gravura com escadas impossíveis que criam ilusões de perspectiva."
+                "titulo": "Movement in Squares",
+                "imagem": "Assets/op-art/movement.jpeg",
+                "autor": "Bridget Riley",
+                "ano": "1961",
+                "local": "Tate Modern, Londres",
+                "descricao": "Padrões geométricos em preto e branco que criam ilusão de movimento e profundidade."
             },
             {
                 "titulo": "Vega-Nor",
